@@ -258,8 +258,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/garnet/proprietary/vendor/etc/1-SN1X0_SPC.txt:$(TARGET_COPY_OUT_VENDOR)/etc/1-SN1X0_SPC.txt \
     vendor/xiaomi/garnet/proprietary/vendor/etc/acdbdata/Mise/Mise_acdb_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Mise/Mise_acdb_cal.acdb \
     vendor/xiaomi/garnet/proprietary/vendor/etc/acdbdata/Mise/Mise_workspaceFileXml.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Mise/Mise_workspaceFileXml.qwsp \
-    vendor/xiaomi/garnet/proprietary/vendor/etc/acdbdata/Mise/foursemi/Mise_acdb_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Mise/foursemi/Mise_acdb_cal.acdb \
-    vendor/xiaomi/garnet/proprietary/vendor/etc/acdbdata/Mise/foursemi/Mise_workspaceFileXml.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Mise/foursemi/Mise_workspaceFileXml.qwsp \
+    vendor/xiaomi/garnet/proprietary/vendor/etc/acdbdata/Mise/foursemi/Mise_acdb_cal_fs.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Mise/foursemi/Mise_acdb_cal_fs.acdb \
+    vendor/xiaomi/garnet/proprietary/vendor/etc/acdbdata/Mise/foursemi/Mise_workspaceFileXml_fs.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Mise/foursemi/Mise_workspaceFileXml_fs.qwsp \
     vendor/xiaomi/garnet/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__2.0.0_0.1__3.0.0_0.0__eai_1.36_enpu2.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__2.0.0_0.1__3.0.0_0.0__eai_1.36_enpu2.pmd \
     vendor/xiaomi/garnet/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__2.3.0_0.1__3.0.0_0.0__eai_1.10.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__2.3.0_0.1__3.0.0_0.0__eai_1.10.pmd \
     vendor/xiaomi/garnet/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__2.3.0_0.1__3.0.0_0.0__eai_1.36_enpu2_comp.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__2.3.0_0.1__3.0.0_0.0__eai_1.36_enpu2_comp.pmd \
@@ -1644,8 +1644,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/garnet/proprietary/vendor/lib/rfsa/adsp/misound_res_spk.bin:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/misound_res_spk.bin \
     vendor/xiaomi/garnet/proprietary/vendor/lib/rfsa/adsp/misound_res_spk4ch.bin:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/misound_res_spk4ch.bin \
     vendor/xiaomi/garnet/proprietary/vendor/lib/rfsa/adsp/misound_res_spk_fs.bin:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/misound_res_spk_fs.bin \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/rfsa/adsp/misound_res_spk_power_game.bin:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/misound_res_spk_power_game.bin \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/rfsa/adsp/misound_res_spk_power_video.bin:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/misound_res_spk_power_video.bin \
     vendor/xiaomi/garnet/proprietary/vendor/lib/sensors.ssc.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.ssc.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/sensors.touch.detect.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.touch.detect.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/sensors.ultrasoundproximity.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.ultrasoundproximity.so \
@@ -2366,7 +2364,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/garnet/proprietary/vendor/lib64/libmis_plugin_morpho.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmis_plugin_morpho.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib64/libmis_plugin_vidhance.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmis_plugin_vidhance.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib64/libmisight.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmisight.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib64/libmispowerop.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmispowerop.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib64/libmlipay.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmlipay.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib64/libmlipay@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmlipay@1.1.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib64/libmm-hdcpmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmm-hdcpmgr.so \
@@ -2806,8 +2803,8 @@ PRODUCT_PACKAGES += \
     TrustZoneAccessService \
     uimgbaservice \
     EuiccGoogle \
-    HotwordEnrollmentOKGoogleHEXAGON_WIDEBAND \
     HotwordEnrollmentXGoogleHEXAGON_WIDEBAND \
+    HotwordEnrollmentYGoogleHEXAGON_WIDEBAND \
     ImsRcsService \
     PowerOffAlarm \
     QCC \

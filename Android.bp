@@ -169,9 +169,9 @@ android_app_import {
 }
 
 android_app_import {
-	name: "HotwordEnrollmentOKGoogleHEXAGON_WIDEBAND",
+	name: "HotwordEnrollmentXGoogleHEXAGON_WIDEBAND",
 	owner: "xiaomi",
-	apk: "proprietary/product/priv-app/HotwordEnrollmentOKGoogleHEXAGON_WIDEBAND/HotwordEnrollmentOKGoogleHEXAGON_WIDEBAND.apk",
+	apk: "proprietary/product/priv-app/HotwordEnrollmentXGoogleHEXAGON_WIDEBAND/HotwordEnrollmentXGoogleHEXAGON_WIDEBAND.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
@@ -181,9 +181,9 @@ android_app_import {
 }
 
 android_app_import {
-	name: "HotwordEnrollmentXGoogleHEXAGON_WIDEBAND",
+	name: "HotwordEnrollmentYGoogleHEXAGON_WIDEBAND",
 	owner: "xiaomi",
-	apk: "proprietary/product/priv-app/HotwordEnrollmentXGoogleHEXAGON_WIDEBAND/HotwordEnrollmentXGoogleHEXAGON_WIDEBAND.apk",
+	apk: "proprietary/product/priv-app/HotwordEnrollmentYGoogleHEXAGON_WIDEBAND/HotwordEnrollmentYGoogleHEXAGON_WIDEBAND.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
