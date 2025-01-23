@@ -131,7 +131,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/garnet/proprietary/vendor/bin/edgnss-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/edgnss-daemon \
     vendor/xiaomi/garnet/proprietary/vendor/bin/embmsslServer:$(TARGET_COPY_OUT_VENDOR)/bin/embmsslServer \
     vendor/xiaomi/garnet/proprietary/vendor/bin/engine-service:$(TARGET_COPY_OUT_VENDOR)/bin/engine-service \
-    vendor/xiaomi/garnet/proprietary/vendor/bin/fidoca:$(TARGET_COPY_OUT_VENDOR)/bin/fidoca \
     vendor/xiaomi/garnet/proprietary/vendor/bin/garden_app:$(TARGET_COPY_OUT_VENDOR)/bin/garden_app \
     vendor/xiaomi/garnet/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.bluetooth@1.0-service-qti \
     vendor/xiaomi/garnet/proprietary/vendor/bin/hw/android.hardware.drm@1.4-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.4-service.widevine \
@@ -195,7 +194,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/garnet/proprietary/vendor/bin/mlid:$(TARGET_COPY_OUT_VENDOR)/bin/mlid \
     vendor/xiaomi/garnet/proprietary/vendor/bin/mlipayd@1.1:$(TARGET_COPY_OUT_VENDOR)/bin/mlipayd@1.1 \
     vendor/xiaomi/garnet/proprietary/vendor/bin/msm_irqbalance:$(TARGET_COPY_OUT_VENDOR)/bin/msm_irqbalance \
-    vendor/xiaomi/garnet/proprietary/vendor/bin/mtd@1.3:$(TARGET_COPY_OUT_VENDOR)/bin/mtd@1.3 \
     vendor/xiaomi/garnet/proprietary/vendor/bin/netmgrd:$(TARGET_COPY_OUT_VENDOR)/bin/netmgrd \
     vendor/xiaomi/garnet/proprietary/vendor/bin/nv_mac:$(TARGET_COPY_OUT_VENDOR)/bin/nv_mac \
     vendor/xiaomi/garnet/proprietary/vendor/bin/pd-mapper:$(TARGET_COPY_OUT_VENDOR)/bin/pd-mapper \
@@ -218,8 +216,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/garnet/proprietary/vendor/bin/qmi-framework-tests/qmi_test_mt_client_init_instance:$(TARGET_COPY_OUT_VENDOR)/bin/qmi-framework-tests/qmi_test_mt_client_init_instance \
     vendor/xiaomi/garnet/proprietary/vendor/bin/qmipriod:$(TARGET_COPY_OUT_VENDOR)/bin/qmipriod \
     vendor/xiaomi/garnet/proprietary/vendor/bin/qms:$(TARGET_COPY_OUT_VENDOR)/bin/qms \
-    vendor/xiaomi/garnet/proprietary/vendor/bin/qrtr-cfg:$(TARGET_COPY_OUT_VENDOR)/bin/qrtr-cfg \
-    vendor/xiaomi/garnet/proprietary/vendor/bin/qrtr-lookup:$(TARGET_COPY_OUT_VENDOR)/bin/qrtr-lookup \
     vendor/xiaomi/garnet/proprietary/vendor/bin/qrtr-ns:$(TARGET_COPY_OUT_VENDOR)/bin/qrtr-ns \
     vendor/xiaomi/garnet/proprietary/vendor/bin/qseecom_sample_client:$(TARGET_COPY_OUT_VENDOR)/bin/qseecom_sample_client \
     vendor/xiaomi/garnet/proprietary/vendor/bin/qseecomd:$(TARGET_COPY_OUT_VENDOR)/bin/qseecomd \
@@ -241,7 +237,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/garnet/proprietary/vendor/bin/subsystem_ramdump:$(TARGET_COPY_OUT_VENDOR)/bin/subsystem_ramdump \
     vendor/xiaomi/garnet/proprietary/vendor/bin/tftp_server:$(TARGET_COPY_OUT_VENDOR)/bin/tftp_server \
     vendor/xiaomi/garnet/proprietary/vendor/bin/thermal-engine-v2:$(TARGET_COPY_OUT_VENDOR)/bin/thermal-engine-v2 \
-    vendor/xiaomi/garnet/proprietary/vendor/bin/tidad@1.2:$(TARGET_COPY_OUT_VENDOR)/bin/tidad@1.2 \
     vendor/xiaomi/garnet/proprietary/vendor/bin/time_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/time_daemon \
     vendor/xiaomi/garnet/proprietary/vendor/bin/vendor.dpmd:$(TARGET_COPY_OUT_VENDOR)/bin/vendor.dpmd \
     vendor/xiaomi/garnet/proprietary/vendor/bin/vendor.qti.hardware.soter@1.0-provision:$(TARGET_COPY_OUT_VENDOR)/bin/vendor.qti.hardware.soter@1.0-provision \
@@ -797,10 +792,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/garnet/proprietary/vendor/etc/init/vendor.sensors.qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sensors.qti.rc \
     vendor/xiaomi/garnet/proprietary/vendor/etc/init/vendor.sensors.sscrpcd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sensors.sscrpcd.rc \
     vendor/xiaomi/garnet/proprietary/vendor/etc/init/vendor.wlan.lowirpcd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.wlan.lowirpcd.rc \
-    vendor/xiaomi/garnet/proprietary/vendor/etc/init/vendor.xiaomi.hardware.mfidoca@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.mfidoca@1.0-service.rc \
     vendor/xiaomi/garnet/proprietary/vendor/etc/init/vendor.xiaomi.hardware.mlipay@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.mlipay@1.1-service.rc \
-    vendor/xiaomi/garnet/proprietary/vendor/etc/init/vendor.xiaomi.hardware.mtdservice@1.3-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.mtdservice@1.3-service.rc \
-    vendor/xiaomi/garnet/proprietary/vendor/etc/init/vendor.xiaomi.hardware.tidaservice@1.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.tidaservice@1.2-service.rc \
     vendor/xiaomi/garnet/proprietary/vendor/etc/init/vmmgr.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vmmgr.rc \
     vendor/xiaomi/garnet/proprietary/vendor/etc/init/wfdvndservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wfdvndservice.rc \
     vendor/xiaomi/garnet/proprietary/vendor/etc/izat.conf:$(TARGET_COPY_OUT_VENDOR)/etc/izat.conf \
@@ -1412,7 +1404,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libmdmdetect.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmdmdetect.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libmdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmdsprpc.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libmemutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmemutils.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/libmfido.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmfido.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libmialgo_ai_vision.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmialgo_ai_vision.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libmialgo_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmialgo_utils.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libminkdescriptor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libminkdescriptor.so \
@@ -1426,7 +1417,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libmmcamera_mfnr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_mfnr.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libmmcamera_mfnr_t4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_mfnr_t4.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libmmcamera_pdpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_pdpc.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/libmt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmt.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libnative-api.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnative-api.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libnetmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnetmgr.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libnetmgr_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnetmgr_common.so \
@@ -1575,7 +1565,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libtestutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtestutils.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libthermalclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libthermalclient.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libthreadutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libthreadutils.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/libtida@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtida@1.2.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libtime_genoff.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtime_genoff.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libtinyxml2_1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtinyxml2_1.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libtrustedapploader.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtrustedapploader.so \
@@ -1794,11 +1783,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/garnet/proprietary/vendor/lib/vendor.qti.qesdsys-V1-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.qesdsys-V1-ndk_platform.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/vendor.qti.qspmhal@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.qspmhal@1.0-impl.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/vendor.qti.qspmhal@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.qspmhal@1.0.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/vendor.xiaomi.hardware.mfidoca@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.xiaomi.hardware.mfidoca@1.0.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/vendor.xiaomi.hardware.quickcamera@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.xiaomi.hardware.quickcamera@1.0.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/vendor.xiaomi.hardware.tidaservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.xiaomi.hardware.tidaservice@1.0.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/vendor.xiaomi.hardware.tidaservice@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.xiaomi.hardware.tidaservice@1.1.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/vendor.xiaomi.hardware.tidaservice@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.xiaomi.hardware.tidaservice@1.2.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib64/android.hardware.media.c2@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.media.c2@1.0.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib64/android.hardware.secure_element@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.secure_element@1.0-impl.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib64/btaudio_offload_if.so:$(TARGET_COPY_OUT_VENDOR)/lib64/btaudio_offload_if.so \
@@ -2353,7 +2338,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/garnet/proprietary/vendor/lib64/libmeters-ns.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmeters-ns.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib64/libmeters.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmeters.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib64/libmfGhostDetection.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmfGhostDetection.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib64/libmfido.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmfido.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib64/libmiai_deblur.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmiai_deblur.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib64/libmiai_portraitsupernight.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmiai_portraitsupernight.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib64/libmialgo_ai_vision.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmialgo_ai_vision.so \
@@ -2401,8 +2385,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/garnet/proprietary/vendor/lib64/libmorpho_ubwc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmorpho_ubwc.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib64/libmorpho_video_stabilizer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmorpho_video_stabilizer.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib64/libmpbase.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmpbase.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib64/libmt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmt.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib64/libmt@1.3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmt@1.3.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib64/libnative-api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnative-api.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib64/libnetmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnetmgr.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib64/libnetmgr_common.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnetmgr_common.so \
@@ -2579,7 +2561,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/garnet/proprietary/vendor/lib64/libtfestriping.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtfestriping.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib64/libthermalclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libthermalclient.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib64/libthreadutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libthreadutils.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib64/libtida@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtida@1.2.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib64/libtime_genoff.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtime_genoff.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib64/libtinyxml2_1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtinyxml2_1.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib64/libtrustedapploader.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtrustedapploader.so \
@@ -2808,11 +2789,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/garnet/proprietary/vendor/lib64/vendor.xiaomi.hardware.bgservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.bgservice@1.0.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib64/vendor.xiaomi.hardware.campostproc@1.0-service-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.campostproc@1.0-service-impl.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib64/vendor.xiaomi.hardware.campostproc@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.campostproc@1.0.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib64/vendor.xiaomi.hardware.mfidoca@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.mfidoca@1.0.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib64/vendor.xiaomi.hardware.quickcamera@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.quickcamera@1.0.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib64/vendor.xiaomi.hardware.tidaservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.tidaservice@1.0.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib64/vendor.xiaomi.hardware.tidaservice@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.tidaservice@1.1.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib64/vendor.xiaomi.hardware.tidaservice@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.tidaservice@1.2.so
+    vendor/xiaomi/garnet/proprietary/vendor/lib64/vendor.xiaomi.hardware.quickcamera@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.quickcamera@1.0.so
 
 PRODUCT_PACKAGES += \
     libagm \
@@ -2864,10 +2841,7 @@ PRODUCT_PACKAGES += \
     android.hardware.security.keymint-service-qti-rkp.xml \
     dataconnection-saidl.xml \
     manifest_android.hardware.drm@1.4-service.widevine.xml \
-    manifest_vendor.xiaomi.hardware.mfidoca.xml \
     manifest_vendor.xiaomi.hardware.mlipay.xml \
-    manifest_vendor.xiaomi.hardware.mtdservice.xml \
-    manifest_vendor.xiaomi.hardware.tidaservice.xml \
     qtiradio-saidl.xml \
     vendor.qti.diag.hal.service.xml \
     vendor.qti.gnss-service.xml \
