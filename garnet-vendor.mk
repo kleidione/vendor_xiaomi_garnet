@@ -488,6 +488,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/garnet/proprietary/vendor/etc/displayconfig/display_id_4630946370515662721.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630946370515662721.xml \
     vendor/xiaomi/garnet/proprietary/vendor/etc/displayconfig/display_id_4630946377747519617.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630946377747519617.xml \
     vendor/xiaomi/garnet/proprietary/vendor/etc/displayconfig/display_id_4630946545580055169.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630946545580055169.xml \
+    vendor/xiaomi/garnet/proprietary/vendor/etc/dolby/dax-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default.xml \
     vendor/xiaomi/garnet/proprietary/vendor/etc/dpm_vndr/vendor.dpm.conf:$(TARGET_COPY_OUT_VENDOR)/etc/dpm_vndr/vendor.dpm.conf \
     vendor/xiaomi/garnet/proprietary/vendor/etc/gpfspath_oem_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gpfspath_oem_config.xml \
     vendor/xiaomi/garnet/proprietary/vendor/etc/gps.conf:$(TARGET_COPY_OUT_VENDOR)/etc/gps.conf \
@@ -534,6 +535,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/garnet/proprietary/vendor/etc/init/qseecomd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qseecomd.rc \
     vendor/xiaomi/garnet/proprietary/vendor/etc/init/ssgtzd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ssgtzd.rc \
     vendor/xiaomi/garnet/proprietary/vendor/etc/init/vendor.display.color@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.display.color@1.0-service.rc \
+    vendor/xiaomi/garnet/proprietary/vendor/etc/init/vendor.dolby.hardware.dms@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.dolby.hardware.dms@2.0-service.rc \
     vendor/xiaomi/garnet/proprietary/vendor/etc/init/vendor.dpmd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.dpmd.rc \
     vendor/xiaomi/garnet/proprietary/vendor/etc/init/vendor.qti.adsprpc-guestos-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.adsprpc-guestos-service.rc \
     vendor/xiaomi/garnet/proprietary/vendor/etc/init/vendor.qti.camera.provider@2.7-service_64.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.camera.provider@2.7-service_64.rc \
@@ -570,6 +572,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/garnet/proprietary/vendor/etc/mdss_dsi_n16_36_0d_0a_dsc_vid_mi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mdss_dsi_n16_36_0d_0a_dsc_vid_mi.xml \
     vendor/xiaomi/garnet/proprietary/vendor/etc/mdss_dsi_n16_41_02_0c_dsc_vid_mi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mdss_dsi_n16_41_02_0c_dsc_vid_mi.xml \
     vendor/xiaomi/garnet/proprietary/vendor/etc/mdss_dsi_n16_42_02_0b_dsc_vid_mi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mdss_dsi_n16_42_02_0b_dsc_vid_mi.xml \
+    vendor/xiaomi/garnet/proprietary/vendor/etc/media_codecs_c2_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_c2_audio.xml \
+    vendor/xiaomi/garnet/proprietary/vendor/etc/media_codecs_dolby_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_dolby_audio.xml \
     vendor/xiaomi/garnet/proprietary/vendor/etc/media_codecs_parrot_v0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_parrot_v0.xml \
     vendor/xiaomi/garnet/proprietary/vendor/etc/media_codecs_performance_parrot_v0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance_parrot_v0.xml \
     vendor/xiaomi/garnet/proprietary/vendor/etc/media_parrot_v0/video_system_specs.json:$(TARGET_COPY_OUT_VENDOR)/etc/media_parrot_v0/video_system_specs.json \
@@ -1280,13 +1284,16 @@ PRODUCT_PACKAGES += \
     libcpion \
     libcv_common \
     libcvp2_1 \
+    libdapparamstorage \
     libdataitems \
+    libdeccfg \
     libdeflicker \
     libdiag \
     libdigital-dimming \
     libdisp-aba \
     libdisplayqos \
     libdisplayskuutils \
+    libdlbdsservice \
     libdlrmsc \
     libdpmqmihal \
     libdpps \
@@ -1606,6 +1613,9 @@ PRODUCT_PACKAGES += \
     sensors.touch.detect \
     sensors.ultrasoundproximity \
     libasphere \
+    libhwdap \
+    libswgamedap \
+    libswvqe \
     vendor.display.color@1.0 \
     vendor.display.color@1.1 \
     vendor.display.color@1.2 \
@@ -1615,6 +1625,8 @@ PRODUCT_PACKAGES += \
     vendor.display.color@1.6 \
     vendor.display.color@1.7 \
     vendor.display.postproc@1.0 \
+    vendor.dolby.hardware.dms@2.0-impl \
+    vendor.dolby.hardware.dms@2.0 \
     vendor.libdpmctmgr \
     vendor.libdpmfdmgr \
     vendor.libdpmframework \
@@ -1874,6 +1886,7 @@ PRODUCT_PACKAGES += \
     c2_manifest_vendor_audio.xml \
     dataconnection-saidl.xml \
     manifest_android.hardware.drm@1.4-service.widevine.xml \
+    manifest_vendor.dolby.hardware.dms.xml \
     manifest_vendor.xiaomi.hardware.mlipay.xml \
     qtiradio-saidl.xml \
     vendor.qti.diag.hal.service.xml \
@@ -1906,6 +1919,7 @@ PRODUCT_PACKAGES += \
     android.hardware.security.keymint-service-qti \
     qcrilNrd \
     vendor.display.color@1.0-service \
+    vendor.dolby.hardware.dms@2.0-service \
     vendor.qti.camera.provider@2.7-service_64 \
     vendor.qti.esepowermanager@1.1-service \
     vendor.qti.hardware.AGMIPC@1.0-service \
