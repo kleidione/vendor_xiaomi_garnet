@@ -488,7 +488,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/garnet/proprietary/vendor/etc/displayconfig/display_id_4630946370515662721.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630946370515662721.xml \
     vendor/xiaomi/garnet/proprietary/vendor/etc/displayconfig/display_id_4630946377747519617.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630946377747519617.xml \
     vendor/xiaomi/garnet/proprietary/vendor/etc/displayconfig/display_id_4630946545580055169.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630946545580055169.xml \
-    vendor/xiaomi/garnet/proprietary/vendor/etc/dolby/dax-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default.xml \
     vendor/xiaomi/garnet/proprietary/vendor/etc/dpm_vndr/vendor.dpm.conf:$(TARGET_COPY_OUT_VENDOR)/etc/dpm_vndr/vendor.dpm.conf \
     vendor/xiaomi/garnet/proprietary/vendor/etc/gpfspath_oem_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gpfspath_oem_config.xml \
     vendor/xiaomi/garnet/proprietary/vendor/etc/gps.conf:$(TARGET_COPY_OUT_VENDOR)/etc/gps.conf \
